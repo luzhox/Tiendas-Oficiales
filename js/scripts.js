@@ -27,7 +27,8 @@ $('.slider-logos').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   dots:true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 1600,
+  autoplay: true,
   responsive: [
     {
       breakpoint: 480,
@@ -36,7 +37,8 @@ $('.slider-logos').slick({
         slidesToShow: 1,
         dots:false,
         slidesToScroll:1,
-        arrows:false
+        arrows:false,
+        autoplay: true
       }
     }
 
