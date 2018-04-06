@@ -27,11 +27,14 @@ $('.slider-logos').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   dots:true,
+  autoplaySpeed: 2000,
   responsive: [
     {
       breakpoint: 480,
       settings: {
+        autoplaySpeed: 1000,
         slidesToShow: 1,
+        dots:false,
         slidesToScroll:1,
         arrows:false
       }
