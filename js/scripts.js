@@ -33,7 +33,7 @@ $('.slider-logos').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll:1,
-        arrow:true
+        arrows:false
       }
     }
 
