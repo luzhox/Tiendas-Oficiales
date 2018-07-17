@@ -33,7 +33,8 @@ a {
   }
 
 .formulario-tiendaoficial{
-  width: 100%; height: 400px;
+  width: 100%;
+  min-height: 400px;
   background: url(http://landing.olx.com/-peru/Vendelo-Por-Mi/img/fondo-form.jpg);
   padding: 10px;
   text-align: center;
